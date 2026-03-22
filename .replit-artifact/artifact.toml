@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/fraud-prd/"
+title = "Payments Fraud Detection PRD"
+version = "1.0.0"
+id = "artifacts/fraud-prd"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/fraud-prd/" ]
+localPort = 18283
+
+[services.development]
+run = "pnpm --filter @workspace/fraud-prd run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/fraud-prd", "run", "build" ]
+publicDir = "artifacts/fraud-prd/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18283"
+BASE_PATH = "/fraud-prd/"
