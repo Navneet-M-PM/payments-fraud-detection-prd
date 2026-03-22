@@ -4,7 +4,7 @@
 
 > **A fully interactive product specification** demonstrating how an AI-powered fraud detection system is designed, scoped, and delivered for a retail bank processing high-volume card and digital payment transactions — from problem framing to ML architecture to 20-month roadmap.
 
-🔗 **[Live Interactive PRD →](https://bank-fraud-prd.replit.app)**
+🔗 **[Live Interactive PRD →](https://payments-fraud-detection-prd.replit.app/fraud-prd/)**
 
 ---
 
@@ -121,4 +121,4 @@ This PRD is part of a series of interactive product specifications I've built to
 - Skilled at navigating the intersection of product, compliance, and data science teams
 - Comfortable with technical depth — able to write and review architecture specs, data schemas, and API contracts
 
-📫 [Connect on LinkedIn](https://linkedin.com/in/navneet-m-pm) &nbsp;|&nbsp; 🌐 [Live PRD](https://bank-fraud-prd.replit.app)
+📫 [Connect on LinkedIn](https://linkedin.com/in/navneet-m-pm) &nbsp;|&nbsp; 🌐 [Live PRD](https://payments-fraud-detection-prd.replit.app/fraud-prd/)
